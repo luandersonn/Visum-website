@@ -12,3 +12,38 @@
         width: 100%;
     }
 }
+
+.feature_list li {
+    display: inline;
+    display: inline-block;
+    border-radius: 8px;
+    color: white;
+    width: 190px;
+    margin: 4px;
+    font-weight: bold;
+}
+
+.feature_list a {
+    text-decoration: none;
+}
+
+.feature_list a div {
+    border: solid 2px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    color: white;
+}
+
+.feature_list a div:hover {
+    background: rgb(0, 0, 0);
+}
+
+.feature_item_container {
+    display: grid;
+    grid: auto / 30% 70%;
+}
+
+.feature_item_container p {
+    text-align: left;
+    margin: 12px 12px 12px -12px;
+}

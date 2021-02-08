@@ -2,6 +2,23 @@ header {
     text-align: center;
 }
 
+.feature_title_container {
+    display: grid;
+    margin: auto;
+}
+
+.feature_title_container h2 {
+    margin: 0px;
+}
+
+.feature_icon {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    -webkit-filter: drop-shadow(0px 0px 0px 5px #0000006b);
+    filter: drop-shadow(0px 2px 5px #0000006b);
+}
+
 .formats_table_container {
     text-align: center;
 }
@@ -17,7 +34,7 @@ header {
     border: 0.2px solid rgba(128, 128, 128, 0.4);
     text-align: center;
     vertical-align: middle;
-    min-width: 250px;
+    min-width: 150px;
     padding: 8px;
 }
 

@@ -92,7 +92,7 @@ header {
 .body_screenshot {
     box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
-    width: 85%;
+    width: 80%;
 }
 
 .menu {
@@ -193,5 +193,11 @@ footer {
     }
     .list_type_2 {
         background-color: #bdbdbd3b;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .body_screenshot {
+        width: 100%;
     }
 }
