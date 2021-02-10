@@ -101,22 +101,13 @@ header {
     border-radius: 4px;
 }
 
-.menu li {
-    display: inline;
-    padding: 8px;
-}
-
 .menu li:hover {
     border-bottom: 2px solid rgba(214, 116, 45, 1);
 }
 
-.selected {
-    border-bottom: 2px solid rgba(214, 116, 45, 1);
-    font-weight: bold;
-}
-
 .menu li {
-    margin: 2px 8px;
+    border-bottom: 2px solid transparent;
+    margin: 4px 8px 18px 8px;
     padding: 0px;
     display: inline-block;
     font-size: 16px;
@@ -133,6 +124,11 @@ header {
 
 .menu li a:visited {
     color: rgb(255, 255, 255, 0.4);
+}
+
+li.selected {
+    border-bottom: 2px solid rgba(214, 116, 45, 1);
+    font-weight: bold;
 }
 
 .download_button img {
