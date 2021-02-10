@@ -134,6 +134,11 @@ header {
     color: rgb(255, 255, 255, 0.4);
 }
 
+.download_button img {
+    width: 250px;
+    height: auto;
+}
+
 footer {
     background: #a0a0a05e;
 }
