@@ -94,6 +94,7 @@ header {
     border-radius: 4px;
     width: 80%;
     height: auto;
+    transition: width 500ms
 }
 
 .menu {
@@ -201,5 +202,9 @@ footer {
 @media screen and (max-width: 920px) {
     .body_screenshot {
         width: 100%;
+    }
+    .list_type_1,
+    .list_type_2 {
+        padding: 10px 5% 50px 5%;
     }
 }
