@@ -3,7 +3,7 @@
     height: 8px;
 }
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     opacity: 0;
 }
 
@@ -20,11 +20,11 @@
     background-color: rgb(110, 110, 110);
 }
 
- ::-webkit-scrollbar-thumb:vertical:active {
+::-webkit-scrollbar-thumb:vertical:active {
     background: rgba(95, 91, 91, 1);
 }
 
- ::-webkit-scrollbar-corner {
+::-webkit-scrollbar-corner {
     background: none;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 header {
-    background-image: url("../images/background.jpg");
+    background-image: url("http://luandersonn.com/images/visum/background.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -188,12 +188,14 @@ footer {
 }
 
 @media screen and (prefers-color-scheme: dark) {
+
     body,
     footer,
     .list_type_1 {
         color: white;
         background-color: #1d1d1d;
     }
+
     .list_type_2 {
         background-color: #bdbdbd3b;
     }
@@ -203,6 +205,7 @@ footer {
     .body_screenshot {
         width: 100%;
     }
+
     .list_type_1,
     .list_type_2 {
         padding: 10px 5% 50px 5%;
