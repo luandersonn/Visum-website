@@ -103,7 +103,7 @@ header {
 }
 
 .menu li:hover {
-    border-bottom: 2px solid rgba(214, 116, 45, 1);
+    border-bottom: 2px solid #6C75E6;
 }
 
 .menu li {
@@ -128,7 +128,7 @@ header {
 }
 
 li.selected {
-    border-bottom: 2px solid rgba(214, 116, 45, 1);
+    border-bottom: 2px solid #6C75E6;
     font-weight: bold;
 }
 
